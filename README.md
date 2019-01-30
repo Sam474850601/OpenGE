@@ -8,10 +8,12 @@
 ##### 3. 圈圈(OvalGView)
 
 - #### 非几何图形类型(ComponentGView) 
+##### 1. 文字(TextGView)
+##### 2. 图像(ImageCGView)
 
-##### 1.文字(TextGView)
-##### 2.图像(ImageCGView)
+## 类图
 
+![image](https://github.com/Sam474850601/OpenGE/blob/master/classview.png)
 
 ## 使用部分
 ### 1.操作模式
@@ -25,4 +27,6 @@
     graffitiBoardView.setMode(com.to8to.graphic.engine.GraffitiBoardView.MODE_SELECTED);
        
 ```
+
+
 
