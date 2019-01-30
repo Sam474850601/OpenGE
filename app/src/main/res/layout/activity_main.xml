@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画笔"
+                android:layout_weight="1"
+                android:onClick="onDrawModeClick"
+                android:id="@+id/btn_pen"
+                />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="箭头"
+                android:layout_weight="1"
+                android:onClick="onDrawModeClick"
+                android:id="@+id/btn_arrow"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="圈圈"
+                android:layout_weight="1"
+                android:onClick="onDrawModeClick"
+                android:id="@+id/btn_oval"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="截取图片"
+                android:layout_weight="1"
+                android:onClick="onCutClick"
+                />
+
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选中"
+                android:layout_weight="1"
+                android:onClick="onChoiceModeClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="颜色"
+                android:onClick="onColorSelectedClick"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="删除"
+                android:onClick="onDeleteClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="清空"
+                android:onClick="onClearClick"
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <com.to8to.graphic.engine.GraffitiBoardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gbroad"
+        android:layout_weight="1"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/et_input"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_textInput"
+                android:text="输入文本"
+                android:onClick="onInputTextClick"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加文本"
+                android:onClick="onAddTextGViewClick"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+
+

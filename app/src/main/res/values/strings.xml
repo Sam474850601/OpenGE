@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GraffitiImageViewSample</string>
+    <string name="select_color">请选择颜色</string>
+</resources>
