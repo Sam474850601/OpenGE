@@ -28,5 +28,26 @@
        
 ```
 
+### 添加布局类型，非几何图形类型实例
 
+```
+    // 目前只支持这个布局，待扩展
+    FrameGLayout frameGLayout = new FrameGLayout()
+    //如添加文字
+    TextGView text =   new TextGView();
+    text.setText("啦啦啦");
+    layout.addView(this)
+    graffitiBoardView.addComponentGView(frameGLayout); 
+   
+```
+
+### 添加非几何图形类型实例
+
+```
+
+ graffitiBoardView.setCurrentDrawingGraphical(com.to8to.graphic.engine.gviews.OvalGView::class.java) 
+ 
+```
+
+具体演示详情看demo
 
