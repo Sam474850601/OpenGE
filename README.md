@@ -1,7 +1,7 @@
 # OpenGE使用文档 1.0
 
 ## 效果图：
-![image](https://github.com/Sam474850601/OpenGE/blob/master/photo1.jpg)
+![image](https://github.com/Sam474850601/OpenGE/blob/master/photo2.jpg)
 
 
 [TOC]
