@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://F:\GraffitiImageViewSample\OpenGE\GraffitiEngine.iml" filepath="F:\GraffitiImageViewSample\OpenGE\GraffitiEngine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GraffitiImageViewSample.iml" filepath="$PROJECT_DIR$/GraffitiImageViewSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenGE/OpenGE.iml" filepath="$PROJECT_DIR$/OpenGE/OpenGE.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://F:\GraffitiImageViewSample\GraffitiEngine\opengf.iml" filepath="F:\GraffitiImageViewSample\GraffitiEngine\opengf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openge.iml" filepath="$PROJECT_DIR$/openge.iml" />
     </modules>
   </component>
 </project>
