@@ -16,6 +16,8 @@
 ##### 1. 文字(TextGView)
 ##### 2. 图像(ImageCGView)
 
+- ### 其他图形自己继承GView或ComponentGView绘制即可
+
 ## 类图
 
 ![image](https://github.com/Sam474850601/OpenGE/blob/master/classview.png)
